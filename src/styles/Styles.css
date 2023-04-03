@@ -1,0 +1,51 @@
+.Products {
+    display: inline-block;
+    width: 40%;
+    height: 300px;
+    margin: 20px;
+    box-shadow: 5px 10px 10px 5px rgb(201, 200, 200);
+    border-radius: 5px;
+}
+
+img {
+    border-radius: 5px;
+    width: 100%;
+    height: 100%;
+}
+
+#prod_section {
+    position: absolute;
+    top: 15%;
+}
+
+#Title {
+    background-color: aquamarine;
+    padding: 10px;
+    font-size: 30px;
+    text-align: center;
+    z-index: 1;
+    position: fixed;
+    top: 0%;
+    width: 100%;
+}
+
+h1{
+    margin: 0%;
+}
+
+input {
+    margin: 10px;
+}
+
+#Sign-in-page {
+    position: fixed;
+    top: 50px;
+    left: 50%;
+    width: 400px;
+    /* height: 100%; */
+    padding: 10px;
+    border-radius: 5px;
+    margin-left: -200px;
+    background-color: azure;
+    z-index: 2;
+}
