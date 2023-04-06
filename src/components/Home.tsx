@@ -45,7 +45,9 @@ class Home extends Component<Props, State> {
     }
     checkName = (event : ChangeEvent<HTMLInputElement>) => {
         this.setState({uname : event.target.value})
-        
+        // if (this.state.uname === "john") {
+        //     throw new Error("No such user as John");
+        //   }
         
     }
 
@@ -95,7 +97,7 @@ class Home extends Component<Props, State> {
                         <SignIn header="SignIn Componenet portal">
                             <p>Hiii test , this and below are child elements of </p>
                             <form onSubmit={this.handleSubmit}>
-                                <input type="text" name="username" value= {uname} onChange={this.checkName} />username
+                                <input type="text" name="username"  onChange={this.checkName} />username
                                 <br />
                                 <input type="password" name="password" id="password" />password
                                 <button onClick={this.hideDialog}>Hide</button>

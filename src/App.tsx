@@ -1,7 +1,7 @@
 import './styles/Styles.css';
-import Header from './components/Header';
-import Home from './components/Home';
-import ErrorBoundary from './components/ErrorBoundary';
+import Header from './advhooks/Header';
+import Home from './advhooks/Home';
+import ErrorBoundary from './advhooks/ErrorBoundary';
 
 function App() {
   return (
